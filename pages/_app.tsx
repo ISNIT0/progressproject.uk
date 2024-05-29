@@ -16,8 +16,10 @@ export default function App({ Component, pageProps }: AppProps) {
             width={100}
             height={100}
           />
-          <br /><br />
-          <br /><br />
+          <br />
+          <br />
+          <br />
+          <br />
           <h1>The Progress Project</h1>
           <p>The future is broken. It&apos;s your time to fix it.</p>
         </div>
@@ -32,8 +34,17 @@ export default function App({ Component, pageProps }: AppProps) {
           {/* <h2>About The Progress Project</h2> */}
           <p>
             The Progress Project, incubated by{" "}
-            <a href="https://futurehouse.uk">FutureHouse</a>, is run by Dr
-            Lawrence Newport and Joe Reeve......
+            <a href="https://futurehouse.uk" target="_blank">
+              FutureHouse
+            </a>
+            , is run by{" "}
+            <a href="https://x.com/pursuitofprog" target="_blank">
+              Dr Lawrence Newport
+            </a>{" "}
+            and{" "}
+            <a href="https://x.com/isnit0" target="_blank">
+              Joe Reeve
+            </a>
           </p>
 
           <aside>
