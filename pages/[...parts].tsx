@@ -15,10 +15,39 @@ export default function Page({
   return (
     <>
       <Head>
-        <title>{`Progress Project`}</title>
-        <meta name="description" content="It's time." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <title>The Progress Project</title>
+        <meta name="title" content="The Progress Project" />
+        <meta
+          name="description"
+          content="Britain is in crisis. We deserve better. Join us today."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.progressproject.uk/" />
+        <meta property="og:title" content="The Progress Project" />
+        <meta
+          property="og:description"
+          content="Britain is in crisis. We deserve better. Join us today."
+        />
+        <meta
+          property="og:image"
+          content="/banner.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://www.progressproject.uk/"
+        />
+        <meta property="twitter:title" content="The Progress Project" />
+        <meta
+          property="twitter:description"
+          content="Britain is in crisis. We deserve better. Join us today."
+        />
+        <meta
+          property="twitter:image"
+          content="/banner.png"
+        />
       </Head>
 
       <ArticleAside article={article} />
