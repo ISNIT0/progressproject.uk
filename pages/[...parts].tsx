@@ -15,11 +15,8 @@ export default function Page({
   return (
     <>
       <Head>
-        <title>{`${article.title} - Progress Project`}</title>
-        <meta
-          name="description"
-          content="It's time."
-        />
+        <title>{`Progress Project`}</title>
+        <meta name="description" content="It's time." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
