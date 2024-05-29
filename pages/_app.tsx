@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <br />
           <br />
           <h1>The Progress Project</h1>
-          <p>The future is broken. It&apos;s your time to fix it.</p>
+          <p>Britain is in crisis. We deserve better.</p>
         </div>
       </header>
 
