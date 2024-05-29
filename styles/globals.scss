@@ -31,15 +31,12 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-a.cta {
-  color: #0070f3;
+  &:hover {
+    border-bottom: 1px dashed currentColor;
+  }
 }
 a:not(.subtle) {
   font-weight: bold;
-}
-a.subtle:hover {
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
 .doc-content {
@@ -181,6 +178,8 @@ aside {
   border-radius: 4px;
   background: rgb(222, 235, 255);
   padding: 8px;
+  background: #a42e14;
+  color: white;
   p {
     margin: 0;
   }

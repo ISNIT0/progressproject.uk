@@ -1,7 +1,7 @@
 import "@/styles/globals.scss";
 import styles from "@/styles/Article.module.scss";
 import type { AppProps } from "next/app";
-import Link from "next/link";
+import Image from "next/image";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -10,6 +10,14 @@ export default function App({ Component, pageProps }: AppProps) {
         <div className={styles.navContent}>
           <br />
           <br />
+          <Image
+            src="/icon-transparent.png"
+            alt="The Progress Project"
+            width={100}
+            height={100}
+          />
+          <br /><br />
+          <br /><br />
           <h1>The Progress Project</h1>
           <p>The future is broken. It&apos;s your time to fix it.</p>
         </div>
@@ -24,8 +32,8 @@ export default function App({ Component, pageProps }: AppProps) {
           {/* <h2>About The Progress Project</h2> */}
           <p>
             The Progress Project, incubated by{" "}
-            <a href="https://futurehouse.uk">FutureHouse</a>, is run by Dr Lawrence
-            Newport and Joe Reeve......
+            <a href="https://futurehouse.uk">FutureHouse</a>, is run by Dr
+            Lawrence Newport and Joe Reeve......
           </p>
 
           <aside>
